@@ -1,0 +1,357 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #14110e;
+  font-family: sans-serif;
+}
+.headerDivsWrapper {
+  width: 100%;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  background-color: #14110e;
+}
+
+.HeaderDiv1 {
+  width: 397px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21.78px;
+  text-align: left;
+  column-gap: 48px;
+  text-decoration: none;
+  padding-left: 100px;
+}
+.HeadirDiv2Logo > img {
+  margin-left: 53px;
+  margin-top: -5px;
+  margin-bottom: 35px;
+}
+.HeaderDiv3 {
+  width: 397px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21.78px;
+  text-decoration: none;
+  margin-left: 220px;
+  margin-top: -95px;
+}
+.HeaderDiv1 > a {
+  text-decoration: none;
+  color: white;
+}
+.HeaderDiv3 > a {
+  text-decoration: none;
+  color: white;
+}
+.HeaderDiv1 > a:hover {
+  color: #c99e71;
+}
+.HeaderDiv3 > a:hover {
+  color: #c99e71;
+}
+.headerdiv2 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-image: url(./img/backround\ img1.png);
+  height: 500px;
+  background-position: center;
+  background-size: 100%;
+}
+
+.headertext {
+  width: 100%;
+  padding-top: 40px;
+  padding-left: 150px;
+  padding-right: 200px;
+  padding-bottom: 141x;
+}
+
+.headertext > h1 {
+  width: 520px;
+  font-family: Righteous, sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 81.6px;
+  color: #ffffff;
+}
+
+.headertext > p {
+  width: 480px;
+  font-family: Urbanist, sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 35px;
+  color: #ffffffcc;
+  padding-top: 20px;
+  padding-bottom: 70px;
+}
+
+.Coffeebtn {
+  padding: 20px 36px;
+  background-color: #c99e71;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.78px;
+  border: none;
+  color: #ffffff;
+}
+
+.Coffeebtn:hover {
+  color: #ffffff;
+  background: none;
+}
+
+.play_coofe {
+  width: 10px;
+  height: 10px;
+  display: flex;
+  margin-left: 1060px;
+  margin-top: -350px;
+}
+
+.play_coofe > button {
+  background: none;
+  border: none;
+}
+
+.play_coofe > img {
+  width: 85px;
+  height: 100px;
+}
+.headerdiv2 > img {
+  width: 100px;
+}
+.mainDiv1 > img {
+  width: 1000px;
+  height: 300px;
+  padding-left: 200px;
+  margin-top: 90px;
+}
+.mainDiv2 > img {
+  width: 1000px;
+  height: 400px;
+  padding-left: 200px;
+  margin-top: 90px;
+}
+.MainDivsWrapper {
+  width: 1000px;
+  height: 570px;
+  display: flex;
+  align-items: center;
+}
+.SECTION3 {
+  width: 800px;
+  height: 500px;
+  /* border: 2px solid blue; */
+  margin-left: 200px;
+  margin-top: 120px;
+}
+.MainDivsWrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 129px;
+}
+.MainInscription1 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #c99e71;
+  text-align: center;
+}
+.MainBigInscription2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}
+.CoffePaketsImgs > img {
+  width: 180px;
+  height: 250px;
+  margin-top: -120px;
+}
+.MAInInscription3 {
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.MainButton1 {
+  width: 130px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #c99e71;
+  color: #ffffff;
+  /* border-radius: 5px; */
+  margin-left: 23px;
+  margin-top: 10px;
+  border: none;
+}
+.MainButton1 > img {
+  width: 25px;
+  height: 25px;
+}
+.MaainSmallInscription1 {
+  color: white;
+}
+.MaainSmallInscription1 {
+  font-size: 13px;
+  font-weight: 600;
+  color: #c99e71;
+}
+.MainStarsImgs > img {
+  width: 15px;
+  height: 15px;
+}
+.MainStarsImgs {
+  width: 150px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 15px;
+}
+.MainInscription4 {
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  margin-left: 25px;
+  margin-top: 13px;
+}
+.CoffeMachine {
+  width: 800px;
+  height: 380px;
+  margin-left: 200px;
+  margin-bottom: 50px;
+  margin-top: 100px;
+  /* border: 1px solid blue; */
+  background-color: #1c1814;
+}
+.CoffeMachine > img {
+  width: 240px;
+  height: 300px;
+  padding-top: 80px;
+  padding-left: 80px;
+}
+.MainHeroRight {
+  margin-left: 300px;
+}
+.MainP1 {
+  width: 470px;
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 50px;
+  margin-top: -250px;
+}
+.MainP2 {
+  width: 460px;
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 28.8px;
+  margin-top: 10px;
+}
+.MainBtn5 {
+  width: 120px;
+  height: 35px;
+  background-color: #c99e71;
+  color: white;
+  border: none;
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+.Menu {
+  width: 800px;
+  margin-left: 200px;
+}
+.MainImages1 {
+  width: 800px;
+  margin-left: 200px;
+  margin-top: 80px;
+}
+.Map {
+  width: 800px;
+  height: 420px;
+  border: 1px solid blue;
+  margin-left: 200px;
+  margin-top: 100px;
+  display: flex;
+  
+}
+#MAP1 {
+  /* padding-left: 200px;
+  margin-top: 100px; */
+  /* width: 50px;
+  height: 50px; */
+}
+.maps {
+  width: 400px;
+  height: 420px;
+}
+.MapInscription{
+  font-size: 13px;
+  color: #c99e71;
+  margin-left: 165px;
+  margin-top: 30px;
+}
+.BigInscription1{
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+  margin-left: 50px;
+}
+input{
+  width: 340px;
+  height: 60px;
+  margin-left: 29px;
+  margin-top: 30px;
+  background-color: #1C1814;
+  color: gray;
+  border: none;
+  padding-left: 15px;
+}
+.Img5{
+  width: 800px;
+  margin-left: 200px;
+  margin-top: 70px;
+}
+.FooterDivsWrapper{
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+.FooterSmallDivs>a{
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+.input3{
+  width: 280px;
+  border-radius: 30px;
+  margin-top: -0px;
+  padding-left: 40px;
+}
+.FooterImage1{
+  width: 100%;
+  margin-top: 30px;
+}
